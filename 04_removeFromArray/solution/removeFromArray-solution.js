@@ -24,5 +24,5 @@ const removeFromArray = function (array, ...args) {
 //   return array.filter(val => !args.includes(val))
 // }
 //
-
+console.log(removeFromArray(['hey', 2, 3, 'ho'], 'hey', 3));
 module.exports = removeFromArray;
